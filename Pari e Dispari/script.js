@@ -23,3 +23,9 @@ if (Pari(somma)) {
 } else {
   risultato = "dispari";
 }
+
+if (sceltaUtente === risultato) {
+  console.log(`Hai vinto, La somma è ${risultato}.`);
+} else {
+  console.log(`Hai perso, La somma è ${risultato}.`);
+}
