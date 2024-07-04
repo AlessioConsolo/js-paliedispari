@@ -6,3 +6,12 @@ function Computer() {
 }
 
 let numeroComputer = Computer();
+
+console.log(`Il numero del computer è: ${numeroComputer}`);
+
+function Pari(numero) {
+  return numero % 2 === 0;
+}
+
+let somma = numeroUtente + numeroComputer;
+console.log(`La somma dei due numeri è: ${somma}`);
