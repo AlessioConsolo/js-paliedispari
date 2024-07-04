@@ -15,3 +15,11 @@ function Pari(numero) {
 
 let somma = numeroUtente + numeroComputer;
 console.log(`La somma dei due numeri è: ${somma}`);
+
+let risultato;
+
+if (Pari(somma)) {
+  risultato = "pari";
+} else {
+  risultato = "dispari";
+}
